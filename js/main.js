@@ -13,12 +13,15 @@ function startTime() {
  
     //convert military to standard time
     if (h > 11) {
-        amPm = "pm"
-    } else if (h > 12) {
-        h = h - 12
-    } else if (h === 0) {
-       h = 12;
+        amPm = "pm";
     }
+
+    if (h > 12) {
+        h = h - 12;
+    } 
+    /*else if (h === 0) {
+       h = 12;
+    }*/
     //add zero in front of single digit number
     function doubleDigit(i) {
 	    if (i < 10) {
