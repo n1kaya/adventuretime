@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    background-color: #fedf6b;
+    background-image: url("../img/bg3.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    font-family: 'Bungee', cursive;
+    font-weight: 100;
+}
+
+h1{
+    color: #057cce;
+    font-weight: 100;
+    font-size: 64px;
+    margin: 40px 0px 20px;
+}
+
+h1:hover {
+    cursor: default;
+}
+
+
+#clockdiv{
+    font-family: 'VT323', monospace;
+    color: #fedf6b;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 49px;
+}
+
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #16aae2;
+    display: inline-block;
+}
+
+/*#01ccd3;*/
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #057cce;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
